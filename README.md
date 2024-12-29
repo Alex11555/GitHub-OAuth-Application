@@ -36,7 +36,7 @@ Once registered, you will be provided with a **Client ID**.
 
 Next, we will configure the environment variables in your application to store the GitHub OAuth credentials securely.
 
-1. Inside the `starting-code/` directory of your project, locate the `.env` file. If you don’t see the `.env` file, you might need to enable the option to view hidden files in your file explorer.
+1. Inside the `GitHub-OAuth-Application/` directory of your project, locate the `.env` file. If you don’t see the `.env` file, you might need to enable the option to view hidden files in your file explorer.
 
 2. Open the `.env` file and add the following values:
 

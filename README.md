@@ -39,4 +39,21 @@ Next, we will configure the environment variables in your application to store t
 1. Inside the `GitHub-OAuth-Application/` directory of your project, locate the `.env` file. If you don’t see the `.env` file, you might need to enable the option to view hidden files in your file explorer.
 
 2. Open the `.env` file and add the following values:
+   Replace `YOUR_ID` with the **Client ID** you obtained from GitHub, and `YOUR_SECRET` with the **Client Secret**.
+
+### 5. Final Steps
+
+Once your `.env` file is configured, your application is ready to use GitHub OAuth authentication! You can now integrate it into your web application, handling authentication via the GitHub API.
+
+---
+
+### Troubleshooting
+
+- **Client Secret visibility**: The **Client Secret** will only be shown once when you generate it. Be sure to copy and save it in a secure location before navigating away from the page.
+- **OAuth App Callback URL**: Ensure that your application’s callback URL matches exactly with the one you provided during registration (e.g., `http://localhost:3000/auth/github/callback`).
+
+---
+
+Now, you can proceed with integrating GitHub OAuth into your app for user authentication.
+
 
